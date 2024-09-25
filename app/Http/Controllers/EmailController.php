@@ -14,7 +14,7 @@ public function sendEmail(){
     $subjectLine = "Custom Email Subject";
 
     // Sending the email
-    Mail::to('churendrakameshwar@gmail.com')->send(new CustomMail($messageContent, $subjectLine));
+    Mail::to('exmpleemail@gmail.com')->send(new CustomMail($messageContent, $subjectLine));
 
     return "Email Sent!";
 }
